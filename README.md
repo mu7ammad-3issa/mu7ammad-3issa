@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Muhammad Issa</h1>
 <h3 align="center">A passionate flutter developer from Egypt</h3>
 
-- 🔭 I’m currently working on **Nexus (my graduation project)**
+- 🔭 I’m currently working on **Nexus (My graduation project)**
 
-- 🌱 I’m currently learning **Flutter**
+- 🌱 I’m currently learning **Advanced Flutter Topics**
 
 - 💬 Ask me about **Dart and Flutter**
 

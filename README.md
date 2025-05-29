@@ -46,7 +46,7 @@
 
  <h2> 📈 &nbsp;My GitHub History!</h2>
 
-<img src="https://raw.githubusercontent.com/mu7ammad-3issa/mu7ammad-3issa/master/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/mu7ammad-3issa/mu7ammad-3issa/output/snake.svg" alt="Snake animation" />
 
 <p align="left">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>

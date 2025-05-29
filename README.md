@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Muhammad Issa</h1>
 
-<img align="right" alt="Coding" width="275" 
+<img align="right" alt="Coding" width="250" 
   src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTJiaXd2ZjF3OGFmb2JhNm9kNWs4bTBxZXRjZHUxcnN5eDQyZm8zMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DbXSzkKLzy96e3uukf/giphy.gif">
   
 <h3 align="flex" style="margin-left: 50px">A passionate Flutter developer from Egypt</h3>

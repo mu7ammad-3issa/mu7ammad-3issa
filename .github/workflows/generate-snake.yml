@@ -1,0 +1,73 @@
+name: Generate GitHub Snake Animation
+
+on:
+  # Run action on schedule
+  schedule:
+    - cron: "* */12 * * *" # execute every 12 hours
+  # Run action on push to the main branch
+  push:
+    branches:
+      - main # Or master, or your default branch name
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to write the generated SVG to the repository
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }} # Uses your GitHub username automatically
+          # The output path for the SVG file. Make sure this matches your <img> src in the README
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            # You want your output in 'output/snake.svg'
+            # To achieve this, we'll generate it in dist first, then move it.
+            # Or, if you prefer a cleaner output directly to output/snake.svg,
+            # the action allows specifying the full path.
+            # Let's try outputting directly:
+            # output/snake.svg
+            # For a simple case, let's use the action's default and then move,
+            # or use a feature of the action if it supports direct pathing well.
+            # Looking at platane/snk docs, it creates files in the 'dist' directory by default based on the names given.
+            # So, we'll generate 'output/snake.svg' like this:
+          # outputs: output/snake.svg # This will create output/snake.svg in the dist folder, i.e. dist/output/snake.svg
+          # The correct way is to specify the path as the filename for the action:
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required for the action to fetch contribution data
+
+      # The platane/snk action v3 generates files in the root directory
+      # by default if you specify a full path like 'output/snake.svg'
+      # in the 'outputs' list. Let's adjust to that.
+      - name: Generate Snake Animation (Corrected Output)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            output/snake.svg 
+            output/snake-dark.svg?palette=github-dark 
+            # Add any other variations you want here, for example:
+            # output/ocean.svg?palette=ocean
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and Push SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/snake.svg output/snake-dark.svg # Add all generated files
+          # Check if there are changes to commit
+          if ! git diff --staged --quiet; then
+            git commit -m "Generate Contribution Snake"
+            git push
+          else
+            echo "No changes to commit for the snake animation."
+          fi

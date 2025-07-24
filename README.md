@@ -7,11 +7,11 @@
   
 ![status](https://img.shields.io/badge/status-up-5D3FD3) ![Gender](https://img.shields.io/badge/gender-%F0%9F%A4%B5-lightgrey) ![](https://komarev.com/ghpvc/?username=mu7ammad-3issa&label=Profile%20views&color=blue&countColor=%237B1E7B&style=flat)
   
-- 🔭 I’m currently working on **Nexus (My graduation project)**
+- 🔭 I’m currently working on **Nexus**
 - 🌱 I’m currently learning **Advanced Flutter Topics**
 - 💬 Ask me about **Dart and Flutter**
 - 📫 How to reach me: **mu7ammad.3issa@gmail.com**
-- 📄 Know about my experiences: [My Resume/CV](https://drive.google.com/file/d/1FqN2qKkvw2_BaFZh4PkF92Oj2Eq3IDNk/view?usp=sharing)
+- 📄 Know about my experiences: [My Resume/CV](https://drive.google.com/file/d/1vJE65Y9n_dNymiBYzM_rFTjxD1mdFht2/view?usp=sharing)
 
 <h2 align="left">Let's Connect and have a Chat! 💬</h2>
 

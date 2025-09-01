@@ -11,7 +11,7 @@
 - 🌱 I’m currently learning **Advanced Flutter Topics**
 - 💬 Ask me about **Dart and Flutter**
 - 📫 How to reach me: **mu7ammad.3issa@gmail.com**
-- 📄 Know about my experiences: [My Resume/CV](https://drive.google.com/file/d/1vJE65Y9n_dNymiBYzM_rFTjxD1mdFht2/view?usp=sharing)
+- 📄 Know about my experiences: [My Resume/CV](https://drive.google.com/file/d/13CH33D3mvfOolnYk6jI6FFfadXnhkB9H/view?usp=drive_link)
 
 <h2 align="left">Let's Connect and have a Chat! 💬</h2>
 
@@ -19,8 +19,8 @@
   <a href="https://www.linkedin.com/in/mu7ammad-3issa" target="_blank"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
   <a href="mailto:mu7ammad.3issa@gmail.com" target="_blank"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /></a>
   <a href="https://discord.com/users/3_issa" target="_blank"><img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo" /></a>
-  <a href="https://x.com/mu7ammad_3issa" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo" /></a>
-  <a href="https://t.me/mu7ammad_3issa" target="_blank"><img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="telegram logo" /></a>
+  <a href="https://x.com/3_issaaa" target="_blank"><img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo" /></a>
+  <a href="https://t.me/m7md_3issa" target="_blank"><img src="https://img.shields.io/static/v1?message=Telegram&logo=telegram&label=&color=2CA5E0&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="telegram logo" /></a>
   <a href="https://wa.me/+201557372814" target="_blank"><img src="https://img.shields.io/static/v1?message=Whatsapp&logo=whatsapp&label=&color=25D366&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="whatsapp logo" /></a>
 </div>
 
